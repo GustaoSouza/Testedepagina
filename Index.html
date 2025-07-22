@@ -45,20 +45,34 @@
       font-weight: bold;
     }
 
-    .btn-suporte {
+    .btn-suporte, .btn-instagram {
       display: inline-block;
       margin-top: 20px;
-      background-color: #800020;
-      color: #fff;
       padding: 12px 24px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
-      transition: background-color 0.3s;
+      font-family: 'Segoe UI', sans-serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-suporte {
+      background-color: #800020;
+      color: #fff;
     }
 
     .btn-suporte:hover {
       background-color: #66001a;
+    }
+
+    .btn-instagram {
+      background-color: #E1306C;
+      color: #fff;
+      margin-left: 10px;
+    }
+
+    .btn-instagram:hover {
+      background-color: #c72a60;
     }
 
     .rodape {
@@ -86,15 +100,15 @@
 
   <p>📧 Entrar em contato através do nosso email: <strong>Utilieasy.sp@gmail.com</strong></p>
 
-  <!-- Botão para abrir o Gmail diretamente -->
+  <!-- Botão de contato por e-mail -->
   <a class="btn-suporte" href="https://mail.google.com/mail/?view=cm&fs=1&to=Utilieasy.sp@gmail.com&su=Ajuda%20com%20meu%20pedido&body=Ol%C3%A1%2C%20fiz%20uma%20compra%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20meu%20pedido." target="_blank">
     📬 Fale conosco por e-mail
   </a>
 
-  <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
-
-  <p>Nos siga nas redes sociais e fique por dentro de novidades e promoções:</p>
-  <p><a href="https://instagram.com/Utilieasy.sp" target="_blank">🅾@Utilieasy.sp</a></p>
+  <!-- Botão para Instagram -->
+  <a class="btn-instagram" href="https://www.instagram.com/utilieasy.sp" target="_blank">
+    📷 Siga no Instagram
+  </a>
 
   <div class="rodape">
     Estamos à disposição para qualquer dúvida ou suporte. <br>
